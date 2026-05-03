@@ -32,4 +32,4 @@ demo/
 !lib/**/*.js
 
 # Env
-*local.env
+*.local.env
