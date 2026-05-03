@@ -30,3 +30,6 @@ demo/
 # Must include files
 !lib/**/*.d.tsw
 !lib/**/*.js
+
+# Env
+*local.env
