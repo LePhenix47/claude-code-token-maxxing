@@ -33,11 +33,11 @@
 
 ### DeepSeek V4
 
-| Model             | Input (Cache Hit) | Input (Cache Miss) | Output | Source                             | Notes                                       |
-| ----------------- | ----------------: | -----------------: | -----: | ---------------------------------- | ------------------------------------------- |
-| DeepSeek V4 Flash |           $0.0028 |              $0.14 |  $0.28 | <https://api.deepseek.com/pricing> | Cheapest option, best for high-volume usage |
-| DeepSeek V4 Pro   |           $0.0145 |              $1.74 |  $3.48 | <https://api.deepseek.com/pricing> | Full price (no discount)                    |
-| DeepSeek V4 Pro   |        $0.003625* |            $0.435* | $0.87* | <https://api.deepseek.com/pricing> | Higher quality, promo pricing (*)           |
+| Model                                   | Input (Cache Hit) | Input (Cache Miss) | Output | Source                             | Notes                                       |
+| --------------------------------------- | ----------------: | -----------------: | -----: | ---------------------------------- | ------------------------------------------- |
+| DeepSeek V4 Flash                       |           $0.0028 |              $0.14 |  $0.28 | <https://api.deepseek.com/pricing> | Cheapest option, best for high-volume usage |
+| DeepSeek V4 Pro                         |           $0.0145 |              $1.74 |  $3.48 | <https://api.deepseek.com/pricing> | Full price (no discount)                    |
+| DeepSeek V4 Pro (Discount limited time) |        $0.003625* |            $0.435* | $0.87* | <https://api.deepseek.com/pricing> | Higher quality, promo pricing (*)           |
 
 \* Discounted pricing (≈75% off, available until May 31st 2026)
 
