@@ -1,4 +1,5 @@
 # LLM model pricing
+
 - [LLM model pricing](#llm-model-pricing)
   - [Legend](#legend)
   - [Pricing](#pricing)
@@ -29,6 +30,10 @@
 | Claude Sonnet 4.6 |            ~$0.30 |              $3.00 | $15.00 | <https://platform.claude.com/docs/en/about-claude/pricing#model-pricing> | Best price/perf   |
 | Claude Opus 4.6   |            ~$0.50 |              $5.00 | $25.00 | <https://platform.claude.com/docs/en/about-claude/pricing#model-pricing> | Best quality      |
 
+**API access:**
+Create an API key via Anthropic Console → <https://console.anthropic.com>  
+Requires account + billing enabled. Keys are project-based
+
 ---
 
 ### DeepSeek V4
@@ -41,6 +46,10 @@
 
 \* Discounted pricing (≈75% off, available until May 31st 2026)
 
+**API access:**
+Create API key at <https://platform.deepseek.com>  
+OpenAI-compatible API, simple key-based auth
+
 ---
 
 ### OpenAI (GPT / Codex Models)
@@ -52,6 +61,10 @@
 | GPT-5.4 mini |           ~$0.075 |              $0.75 |  $4.50 | <https://openai.com/api/pricing>                      | Budget coding model           |
 | GPT-5 Codex  |           ~$0.125 |              $1.25 | $10.00 | <https://platform.openai.com/docs/models/gpt-5-codex> | Optimized for coding agents   |
 
+**API access:**
+Create API key via <https://platform.openai.com>  
+Requires billing setup; keys managed per project/org
+
 ---
 
 ### Kimi
@@ -59,3 +72,8 @@
 | Model                  | Input (Cache Hit) | Input (Cache Miss) |        Output | Source                                               | Notes                                           |
 | ---------------------- | ----------------: | -----------------: | ------------: | ---------------------------------------------------- | ----------------------------------------------- |
 | Kimi K2.6 (OpenRouter) |                 — |      $0.74 – $0.95 | $3.49 – $4.00 | <https://openrouter.ai/moonshotai/kimi-k2.6/pricing> | Aggregated pricing via OpenRouter routing layer |
+
+**API access:**
+No direct official standalone key in most workflows.  
+Access via OpenRouter → <https://openrouter.ai>  
+You create an OpenRouter API key, not a native Kimi key
